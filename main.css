@@ -1,53 +1,81 @@
+html{
+color: white
+font-size:16px;
+line-height:1.4;
+font-family:ariel,sans-serif;
+}
+
+
+img
+{max-width: 1200px;
+max-height: 800px;
+}
+
 head { max-width: 1000px;
 }
 
-body { max-width: 1000px;
+body { 
+max-width: 1000px;
+display: block;
+background-color: grey;
 }
 
-.junior { background-color: red;
-}
+
+container {max-width: 1200px}
 @media (min-width: 480px) and (max-width: 1000px)  
 img {
-    display: none;
+    display: block;
   }
 }
 
-.giants { background-color: blue;}
-
-@media (min-width: 480px) and (max-width: 900px)  
+junior { background-color: red
+          float: right;
+}
+@media (max-width: 1000px)  
 img {
-    display: none;
+    display: block;
   }
 }
 
-.cars {background-color: green;}
+giants { background-color: blue;
+          float: right;}
 
-@media (min-width: 480px) and (max-width: 800px)  
+@media (max-width: 900px)  
 img {
-    display: none;
+    display: block;
   }
 }
 
-.birthday {background-color: orange; }
+cars {background-color: green;
+       float:right;}
 
-@media (min-width: 480px) and (max-width: 700px)  
+@media (max-width: 800px)  
 img {
-    display: none;
+    display: block;
   }
 }
 
-.twin {background-color: purple }
+birthday {background-color: orange;
+           float: right; }
 
-@media (min-width: 480px) and (max-width: 600px)  
+@media (max-width: 700px)  
 img {
-    display: none;
+    display: block;
   }
 }
 
-.outdoors {background-color: yellow;}
+#twin {background-color: purple }
 
-@media (min-width: 480px) and (max-width: 500px)  
+@media (max-width: 600px)  
 img {
-    display: none;
+    display: block;
+  }
+}
+outdoors {background-color: yellow;
+           float:right;}
+
+@media (max-width: 500px)  
+img {
+    display: block;
   }
 }
