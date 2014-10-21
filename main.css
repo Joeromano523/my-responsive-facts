@@ -22,81 +22,62 @@ background-color: grey;
 
 
 container {max-width: 1200px}
-@media (min-width: 480px) and (max-width: 1000px)  
-img {
-    display: block;
-  }
-}
+@media (max-width: 1000px){ 
+
 
 body{
 background-color:purple;
 }
 
-#junior { background-color: red
-        ;
+#junior { display:none;}
+
 }
-@media (max-width: 1000px)  
-img {
-    display: block;
-  }
-}
+@media (max-width: 1000px){  
+
 body{
 background-color:orange;
 }
 
-#giants { background-color: blue;
+#giants { display:none;
           }
-
-@media (max-width: 900px)  
-img {
-    display: block;
-  }
 }
+@media (max-width: 900px){  
+
 body{
 background-color:red;
 }
-#cars {background-color: green;
+#cars {display:none;
        }
-
-@media (max-width: 800px)  
-img {
-    display: block;
-  }
 }
+@media (max-width: 800px){ 
+
 body{
 background-color:yellow;
 }
-
-#birthday {background-color: orange;
+}
+#birthday {display:none;
             }
 
-@media (max-width: 700px)  
-img {
-    display: block;
-  }
-}
-body{
-background-color:grey;
+@media (max-width: 700px){  
+
+	body{
+			background-color:purple;
+	}
+
+		#twin {display:none; }
 }
 
-#twin {background-color: purple }
+@media (max-width: 600px){  
 
-@media (max-width: 600px)  
-img {
-    display: block;
-  }
-}
 body{
 background-color:darkblue;
 }
-#outdoors {background-color: yellow;
+#outdoors {display:none;
            }
-
-@media (max-width: 500px)  
-img {
-    display: block;
-  }
 }
+@media (max-width: 500px) { 
+
 body{
 background-color:lightblue;
+}
 }
